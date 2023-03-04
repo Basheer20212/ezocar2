@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}   
+.subContainer{
+    width:50%;
+    float:left;
+    display: block;
+    margin:2% auto;
+    border-radius:10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border:1px solid black;
+    background-color:#ECF2FF;
+}
+.form{
+    margin:auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.subContainer h1{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#3E54AC;
+    margin:25px auto ;
+}
+.register{
+    display:block;
+    margin:20px auto 0px auto;
+    text-align:center;
+    justify-content:center
+}
+.register input{
+    cursor:pointer;
+    margin:10px auto;
+    background:#3E54AC;
+    padding:5px 50px;
+    color:white;
+    font-size:20px;
+    border:1px solid black;
+    border-radius:25px;
+}
+.backButton{
+    width:150px;
+    cursor:pointer;
+    margin:5px auto;
+    background:#3E54AC;
+    padding:5px 15px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:20px;
+    border:1px solid black;
+    border-radius:25px;
+}
+.backButton a{
+    color:white;
+    font-size:15px;
+    cursor:pointer;
+    text-decoration:none;
+}
+.backButton a:hover{
+    color:black;
+}
+.backButton:hover{
+    background: #BAD7E9;
+}
+.backButton button{
+    border:none;
+    cursor:pointer;
+    background: transparent;
+}
+.register input:hover{
+    color:black;
+    background: #BAD7E9;
+}
+.inputBasheer{
+    border:0 0 2px 0 solid black;
+    outline:none;
+    border:1px solid #2B3467;
+    border-radius:5px;
+    font-size:15px;
+    padding:10px 15px;
+    width:1000px;
+}
+.insideContainerLabel{
+    width:70%;
+    display:flex;
+    margin:10px auto;
+}
+.insideContainerLabel label{
+    font-size:25px
+}
+.insideContainerInput{
+    width:70%;display: flex;margin:10px auto;
+}
